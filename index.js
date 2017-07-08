@@ -3,7 +3,7 @@
  */
 exports.disco = function() {
 
-    var body = document.querySelector("body");
+    var body = document.getElementsByName("body");
     document.body.setAttribute("name", "helloButton");
 
 }
