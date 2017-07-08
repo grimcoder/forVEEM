@@ -3,7 +3,15 @@
  */
 exports.disco = function() {
 
-    var body = document.getElementsByName("body");
+    var i = 0;
+    var interval = setInterval(()=>{
+        if (i == 10) clearInterval(interval);
+        document.body.setAttribute("name", "helloButton");
+        document.body.innerText(i);
+        i++;
+    }, 1000);
+
+
     document.body.setAttribute("name", "helloButton");
 
 }
