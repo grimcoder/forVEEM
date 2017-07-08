@@ -1,0 +1,22 @@
+{
+  "name": "forveem",
+  "version": "1.0.0",
+  "description": "1.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grimcoder/forVEEM.git"
+  },
+  "keywords": [
+    "forVEEM"
+  ],
+  "author": "taras kovtun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grimcoder/forVEEM/issues"
+  },
+  "homepage": "https://github.com/grimcoder/forVEEM#readme"
+}
