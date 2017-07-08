@@ -1,17 +1,19 @@
 /**
  * Created by taraskovtun on 7/8/17.
  */
-exports.disco = function() {
 
+var disco = function(){
     var i = 0;
     var interval = setInterval(()=>{
         if (i == 10) clearInterval(interval);
         document.body.setAttribute("name", "helloButton");
-        document.body.innerText(i);
+        document.body.innerText = i;
         i++;
     }, 1000);
+}
 
+exports.disco = function() {
 
-    document.body.setAttribute("name", "helloButton");
+    return disco;
 
 }
