@@ -7,8 +7,10 @@ exports.disco = function() {
 
     var i = 0;
     var interval = setInterval(()=>{
-        if (i == 10) clearInterval(interval);
-        document.body.setAttribute("name", "helloButton");
+        if (i == 9) clearInterval(interval);
+
+        document.body.setAttribute("style", "background-color: #" + (i * 10 - 1) + 'aaaa' );
+
         document.body.innerText = i;
         i++;
     }, 1000);
