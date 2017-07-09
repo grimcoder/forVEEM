@@ -18,9 +18,9 @@ exports.disco = function() {
     var interval = setInterval(()=>{
         if (i == 10) clearInterval(interval);
 
-        var r = getRandomIntInclusive(10, 99);
-        var g = getRandomIntInclusive(10, 99);
-        var b = getRandomIntInclusive(10, 99);
+        var r = getRandomIntInclusive(10, 99) + '';
+        var g = getRandomIntInclusive(10, 99) + '';
+        var b = getRandomIntInclusive(10, 99) + '';
 
         var color = '#' + (r+g+b);
 
