@@ -1,2 +1,7 @@
 # forVEEM
-1.
+
+Below the example how to use: 
+
+import {disco} from 'forveem'
+
+disco();
